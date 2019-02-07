@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+*{
+  line-height: 22px;
+  font-family: 'PT Sans', sans-serif;
+
+}
+#fon-logo{
+  width:1400px;
+  height: 230px;
+  background-color: #dbdbdb;
+  margin:0 auto;
+}
+#fon-logo img{
+  width: 273px;
+  height: 100px;
+  margin: 65px 0px 0px 210px;
+}
+#fon-logo p{
+  text-align: right;
+  margin-right: 20px;
+  margin-top: -96px;
+  color: #767676;
+  font-size: 40px;
+}
+.navigator{
+ text-align:center;
+  background-color:#777777;
+  width:1400px;
+  height: 80px;
+  margin:0 auto;
+}
+.menu{
+  display:inline-flex;
+  margin: 25px;
+  list-style: none;
+  text-align: center;
+}
+.menu li a{
+  font-size: 30px;
+  color:#ffffff;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 0.75px;
+  padding-left: 20px;
+}
+.menu a::after{
+  content:"  |"
+}
+.menu li:last-child > a:after {
+  display: none;
+}
+
+/*
+.navigator a{
+  font-size: 30px;
+  margin: 15px;
+  position:relative;
+  color: white;
+  display:inline;*/
+}
+/*main content*/
+.block-1 {
+  text-align: center;
+}
+.block2{
+  color:#000000;
+  width: 980px;
+  height:560px;
+  margin-left: 450px;
+  margin-top: 45px;
+
+}
+.block-2{
+  background-color: #777777;
+  color: white;
+  width: 350px;
+  float: left;
+  margin-right: 50px;
+}
+.block-2 h2{
+  font-size:40px;
+  margin-left:33px;
+}
+.block-2 p{
+  font-size:14px;
+  margin-left:33px;
+}
+.block-3{
+  width:500px;
+  color: #767676;
+  float: left;
+  margin-left:50px;
+}
+.block-3 h2{
+  font-size:40px;
+}
+.block-3 p{
+  font-size:15px;
+}
+
+/*footer*/
+#footer{
+  margin-top: 140px;
+  color: #ffffff;
+  background-color: #777777;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+}
+.footer{
+  font-size: 14px;
+  padding-top: 50px;
+  height: 220px;
+  width: 980px;
+  margin: 0 auto;
+
+}
+.footer1 {
+  text-align: left;
+  float: left;
+}
+.footer1 a{
+  color:#ffffff;
+  text-decoration: none;
+}
+.footer2{
+  width: fit-content;
+  float: left;
+  margin-left: 100px;
+}
+.footer2 .nav{
+   margin-left:150px;
+   list-style-type: none;
+}
+.nav a{
+  color:#ffffff;
+}
+.footer3{
+  float:right;
+  margin-top: 20px;
+}
+.footer3 a{
+  color:#ffffff;
+}
