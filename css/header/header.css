@@ -1,0 +1,61 @@
+.conteiner{
+  width: auto;
+  background-color: #dcdcdc;
+}
+.header{
+  width: 960px;
+  margin: 0 auto;
+}
+.wrapper{
+}
+.fon-logo-backgroung{
+  width: auto;
+  background-color: #dbdbdb;
+}
+#fon-logo-header{
+  height: 230px;
+  background-color: #dbdbdb;
+  margin:0 auto;
+}
+#fon-logo-header img{
+  width: 273px;
+  height: 100px;
+  margin: 70px 0 0 0;
+}
+#fon-logo-header p{
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: right;
+  margin-right: 20px;
+  margin-top: -96px;
+  color: #767676;
+  font-size: 40px;
+}
+.navigator{
+  text-align:center;
+  background-color:#777777;
+  height: 80px;
+  margin:0 auto;
+}
+.menu{
+  display:inline-flex;
+  margin: 25px;
+  list-style: none;
+  text-align: center;
+}
+.menu li a{
+  font-size: 30px;
+  color:#ffffff;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 0.75px;
+  padding-left: 20px;
+}
+.menu a::after{
+  content:"  |"
+}
+.menu li:last-child > a:after {
+  display: none;
+}
+.menu a:hover{
+  border-bottom: 2px solid #ffffff;
+}
