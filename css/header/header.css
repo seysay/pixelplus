@@ -1,38 +1,70 @@
-.conteiner{
-  width: auto;
-  background-color: #dcdcdc;
-}
 .header{
+  width: 100%;
+  background-color: #dcdcdc;
+  height: 230px;
+}
+.container{
   width: 960px;
   margin: 0 auto;
 }
 .wrapper{
 }
-.fon-logo-backgroung{
-  width: auto;
-  background-color: #dbdbdb;
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
-#fon-logo-header{
-  height: 230px;
-  background-color: #dbdbdb;
-  margin:0 auto;
+.clearfix {
+  overflow: auto;
 }
-#fon-logo-header img{
-  width: 273px;
-  height: 100px;
-  margin: 70px 0 0 0;
+.block-logo h2 {
+  font-size: 30px;
+  display: inline-block;
+  position: absolute;
+  top: 70px;
+  margin-left: 10px;
+  color:#767676;
 }
-#fon-logo-header p{
-  font-family: 'Open Sans Condensed', sans-serif;
-  text-align: right;
-  margin-right: 20px;
-  margin-top: -96px;
-  color: #767676;
+.block-logo img {
+  position: relative;
+  margin-top: 60px;
+  float: left;
+}
+.block-logo span {
+  font-size: 18px;
+  margin-left: 10px;
+  position: relative;
+  top: 120px;
+  color:#767676;
+}
+.block-phone span{
   font-size: 40px;
+  color:#767676;
+}
+.block-phone a{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 25px;
+  border-bottom: 2px dashed #767676;
+  color: #767676;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 35px;
+}
+.block-phone {
+  float: right;
+  text-align: right;
+  margin-top: 40px;
+  line-height: 1px;
+}
+.block-phone span{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.menu-section {
+  width: 100%;
+  background-color:#777777;
 }
 .navigator{
   text-align:center;
-  background-color:#777777;
   height: 80px;
   margin:0 auto;
 }
@@ -48,14 +80,18 @@
   text-decoration: none;
   text-align: center;
   letter-spacing: 0.75px;
-  padding-left: 20px;
+  margin-right: 15px;
+  margin-left: 15px;
 }
-.menu a::after{
-  content:"  |"
+.menu li {
+  border-right: 2px solid white;
 }
-.menu li:last-child > a:after {
-  display: none;
+.menu li:nth-child(5n) {
+  border-right: 0;
+  margin-right: 0;
+  margin-left: 0;
 }
+
 .menu a:hover{
   border-bottom: 2px solid #ffffff;
 }
