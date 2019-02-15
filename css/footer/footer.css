@@ -35,9 +35,25 @@
 .nav a{
   color:#ffffff;
 }
-.footer-right{
-  float:right;
+.footer-logo {
+  height: 33px;
+  float: right;
+  display: flex;
+  flex-direction: row;
+  position: relative;
 }
-.footer-right a{
-  color:#ffffff;
+.footer-logo-icon {
+  position: absolute;
+  left: -35px;
+  top: 5px;
+}
+.footer-logo a {
+  color: #ffffff;
+}
+.footer-logo p {
+  margin-left:10px;
+  padding-left: 5px;
+  font-family: "PT_Sans", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
 }

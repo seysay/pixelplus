@@ -6,6 +6,10 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <link rel="stylesheet" media="screen and (max-width: 480px)" href="css/media/media.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 <body>
 <div class="wrapper-big">
@@ -26,17 +30,17 @@
     </div>
   </div>
 </header>
-<section class="menu-section">
-  <nav class="navigator container">
-    <ul class="menu">
-      <li><a href="#">Главная</a></li>
-      <li><a href="#">Каталог</a></li>
-      <li><a href="#">Доставка и оплата</a></li>
-      <li><a href="#">Прайс-лист</a></li>
-      <li><a href="#">Контакты</a></li>
-    </ul>
-  </nav>
-</section>
+  <div class="menu">
+    <div class="container">
+      <ul class="nav">
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Каталог</a></li>
+        <li><a href="#">Доставка и оплата</a></li>
+        <li><a href="#">Прайс-лист</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+    </div>
+  </div>
   <main>
     <div class="block-slider">
       <img src="img/sharu.png" alt="sharu" title="sharu">
@@ -80,10 +84,14 @@
         <li><a href="#">Контакты</a></li>
       </ul>
     </div>
-    <div class="footer-right">
-      <img src="img/company.png" alt="company" title="company">
-      <a href="#">Разработка сайта</a><br>
-      <span>компания «Пиксель Плюс»</span>
+    <div class="footer-logo">
+      <a class="footer-logo-icon" href="#">
+        <img src="img/company.png" width="36" height="38" alt="Logo-company" title="Logo-company">
+      </a>
+      <p>
+        <a href="#">Разработка сайта</a><br>
+        компания «Пиксель Плюс»
+      </p>
     </div>
   </div>
 </footer>

@@ -6,3 +6,9 @@
   align-items: center;
   overflow: hidden;
 }
+
+@media screen and (max-width: 1248px) {
+  .wrapper-big .wrapper main .block-slider {
+    display: none;
+  }
+}
